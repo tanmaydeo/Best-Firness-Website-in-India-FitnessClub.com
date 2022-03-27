@@ -1,0 +1,296 @@
+*{
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box;
+}
+
+#header{
+  background: url("../images/banner.jpg") ;
+  height: 80vh ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-nav li a{
+  float: right;
+  color : #fff !important;
+}
+
+.logo{
+  height: 20px ;
+}
+
+.navbar-brand img{
+  width: 150px ;
+  margin-left: 50px ;
+}
+
+/* WelcomeSection */
+.welcome{
+  padding: 50px 100px ;
+  margin-top: -140px ;
+  background-color: white ;
+  box-shadow: 0 0 15px 5px rgba(0 , 0 , 0 , 0.4) ;
+}
+
+.welcome h1{
+  color: #333 ;
+}
+
+.welcome .home-btn{
+  color: white ;
+  background-color: #013f7e ;
+  border-radius: 15px ;
+  padding: 10px 30px ;
+  margin-top: 10px ;
+}
+
+.welcome .btn:focus{
+  box-shadow: none ;
+}
+
+/* About */
+#about{
+  padding: 100px 0 ;
+}
+
+#about .col-md-6{
+  padding: 20px 10px ;
+}
+
+#about h3{
+  margin: 20px auto;
+}
+
+/* Services */
+#services{
+  padding: 80px 0 ;
+  background-color: #efefef ;
+}
+
+#services .col-md-4{
+  padding: 20px ;
+}
+
+#services .col-md-4 h4{
+  padding: 5px ;
+}
+
+#services .col-md-4 img{
+  width: 60px ;
+}
+
+#services .col-md-4 p{
+  text-align: justify;
+  padding: 5px ;
+}
+
+/* Features */
+#features{
+  padding: 100px 0 ;
+  background-image: linear-gradient(rgba(0 , 0 , 0 , 0.7) , rgba(0 , 0, 0 , 0.7)) , url("../images/feature-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white ;
+}
+
+.small_icons{
+  padding-top: 15px ;
+  height: 60px ;
+}
+
+#features .col-md-6{
+  padding: 20px ;
+}
+
+.feature-box{
+  height: 130px ;
+}
+
+.feature-box .feature-left{
+  height: 120px ;
+  width: 20% ;
+  float: left ;
+}
+
+.feature-box .feature-right{
+  height: 120px ;
+  width: 80% ;
+  float: left ;
+}
+
+.feature-box .feature_right h4{
+  padding-top: 10px ;
+  padding-left: 15px ;
+  text-align: left;
+}
+
+/* Testimonials */
+#testimonials{
+  padding: 100px 0 ;
+}
+
+#testimonials .col-md-4{
+  padding: 10px 30px ;
+}
+
+#testimonials .user-logo{
+  height: 60px ;
+  width: 60px ;
+  border-radius: 50% ;
+  margin-left: -30px ;
+  margin-top: -40px ;
+  margin-bottom: 30px ;
+}
+
+.review{
+  font-size: 16px ;
+  padding: 10px 10px 10px 30px ;
+  border-radius: 10px ;
+  box-shadow: 0px 0px 20px 1px rgba(0 , 0 , 0 , 0.2);
+}
+
+#testimonials .twitter-logo{
+  height: 15px ;
+  width: 15px ;
+  margin-right: 5px ;
+}
+
+#testimonials span{
+  font-weight: 500 ;
+  font-size: 15px ;
+  color : #013f7e ;
+}
+
+#testimonials h1{
+  color : #013f7e ;
+  margin-bottom: 20px ;
+}
+
+#testimonials p{
+  padding-bottom: 30px ;
+}
+
+#testimonials .middle{
+  margin-top: -30px ;
+  margin-bottom: -30px ;
+}
+
+/* Subscribe */
+.subscribe{
+  padding: 50px 20px ;
+  background-color: #013f7e ;
+  position: relative;
+  box-shadow: 0 0 20px 7px rgba(0 , 0 , 0 , 0.2) ;
+  margin-bottom: -160px ;
+}
+
+.subscribe h3 , .subscribe p{
+  color : white ;
+}
+
+.subscribe .input-group{
+  border-radius: 30px ;
+  background-color: white ;
+  max-width: 550px ;
+  margin: 10px auto;
+  padding: 5px ;
+}
+
+.subscribe .form-control{
+  border: none ;
+  background: transparent ;
+}
+
+.subscribe .form-control:focus{
+  box-shadow: none ;
+  background: transparent ;
+}
+
+.subscribe .input-group-append{
+  background-image: linear-gradient(to right , #1c03b5 , #5c8bef);
+  margin-right: 10px ;
+}
+
+.subscribe .input-group-text{
+  background: transparent ;
+  border: none ;
+  color : white ;
+}
+
+/* Footer */
+#footer{
+  margin-top: 80px ;
+  padding: 100px ;
+  background-color: #efefef ;
+  color : #013f7e ;
+}
+
+.footer-logo{
+  width: 150px ;
+  margin-top: 25px ;
+  margin-bottom: 15px ;
+}
+
+#footer h1{
+  font-size: 18px ;
+  text-align: left;
+  margin-top: 25px ;
+  margin-bottom: 25px ;
+}
+
+#footer p{
+  font-size: 13px ;
+  text-align: left;
+}
+
+.footer_images{
+  height: 15px;
+  padding-right: 10px ;
+}
+
+#footer .city{
+  margin-left: 30px ;
+}
+
+#footer .copyright{
+  margin-top: 10px ;
+  text-align: center;
+  margin-bottom: -70px ;
+  font-size: 15px ;
+}
+
+
+@media (max-width : 600px) {
+  .navbar-brand img{
+    margin-left: 5px ;
+  }
+
+  .welcome{
+    padding: 40px ;
+  }
+
+  .welcome h1{
+    font-size: 26px ;
+  }
+
+  .welcome p{
+    font-size: 15px ;
+  }
+
+  .container{
+    text-align: center;
+  }
+
+  .embed-responsive-item{
+    height: 200px ;
+    width: 350px ;
+  }
+
+  #features .feature_main_img{
+    height: 270px ;
+    width: 300px ;
+  }
+}
